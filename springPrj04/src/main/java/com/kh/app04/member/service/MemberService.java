@@ -1,5 +1,6 @@
 package com.kh.app04.member.service;
 
+import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.kh.app04.member.dao.MemberDao;

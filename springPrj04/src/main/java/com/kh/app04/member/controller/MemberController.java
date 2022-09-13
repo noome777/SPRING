@@ -29,9 +29,9 @@ public class MemberController {
 		int result = ms.join(vo);
 		
 		if(result == 1) {
-			
+			return "redirect:/";
 		}else {
-			
+			return "error/errorPage";
 		}
 		
 	}
