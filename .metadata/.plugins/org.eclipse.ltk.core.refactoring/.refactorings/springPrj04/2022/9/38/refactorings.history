@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;springPrj04/src/main/webapp/WEB-INF/libs&apos; to &apos;lib&apos;" description="Rename resource &apos;libs&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/libs" name="lib" stamp="1663064525140" updateReferences="true"/>
+</session>

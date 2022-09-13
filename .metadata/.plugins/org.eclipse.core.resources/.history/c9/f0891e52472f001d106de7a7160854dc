@@ -1,0 +1,9 @@
+package com.kh.app01.notice;
+
+public class NoticeService {
+
+	public int write() {
+		return 0;
+	}
+
+}

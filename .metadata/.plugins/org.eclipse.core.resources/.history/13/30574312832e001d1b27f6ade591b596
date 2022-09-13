@@ -1,0 +1,10 @@
+package com.kh.app01;
+
+public class HomeDao {
+
+	public int home() {
+		
+		return 777;
+	}
+
+}

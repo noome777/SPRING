@@ -1,0 +1,5 @@
+package com.kh.app02.member.service;
+
+public class MemberServiceImpl {
+
+}

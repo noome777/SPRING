@@ -1,0 +1,14 @@
+package com.kh.app01.qna;
+
+public class QnaDao {
+
+	/**
+	 * 문의 작성 진행
+	 * @param vo
+	 * @return
+	 */
+	public int write(QnaVo vo) {
+		return 1;
+	}
+
+}

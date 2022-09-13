@@ -1,0 +1,12 @@
+package com.kh.app01.notice;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class NoticeController {
+	
+	@Autowired
+	private NoticeService service;
+
+}

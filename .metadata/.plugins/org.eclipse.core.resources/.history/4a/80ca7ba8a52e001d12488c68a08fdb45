@@ -1,0 +1,23 @@
+package com.kh.app01.board;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class BoardController {
+	
+	@Autowired
+	private BoardService service;
+	
+	@RequestMapping(value = "/board/wrtie", method = RequestMethod.GET)
+	
+	@RequestMapping(value = "/board/write" ,method = RequestMethod.POST)
+	public String write() {
+		System.out.println("board 컨트롤러 호출됨");
+		int result = service.write();
+		return "board/write";
+	}
+
+}

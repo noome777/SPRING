@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	
+! 룻 칸텍스트 디파인즈 셰어드 리소어시즈 비저벌 투 올 어더 웨브 컴포우넌트스
+
+
+83 / 5000발음듣기복사하기번역하기자동완성자동완성	
+한국어열기/닫기 아이콘
+<!-- 루트 컨텍스트: 다른 모든 웹 구성요소에 표시되는 공유 리소스를 정의합니다. -->
+		
+</beans>
