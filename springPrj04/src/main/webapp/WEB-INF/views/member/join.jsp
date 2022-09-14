@@ -10,11 +10,11 @@
 	<h1>회원가입</h1>
 	
 	<form action="" method="post">
-		아이디 : <input type="text" name="memberId">
+		아이디 : <input type="text" name="id">
 		<br>
-		패스워드 : <input type="text" name="memberPwd">
+		패스워드 : <input type="text" name="pwd">
 		<br>
-		닉네임 : <input type="text" name="memberNick">
+		닉네임 : <input type="text" name="nick">
 		<br>
 		<input type="submit" value="회원가입">
 	</form>

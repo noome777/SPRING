@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="springPrj00"/>
 <aop-project name="springPrj01"/>
 <aop-project name="springPrj02"/>
+<aop-project name="springPrj03"/>
+<aop-project name="springPrj04"/>
+<aop-project name="springPrj05"/>
 </aop-reference-model>
