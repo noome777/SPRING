@@ -62,21 +62,25 @@ public class MemberController {
 	//로그인
 	
 	//정보 수정 (화면)
+	//정보 수정 (화면)
 	@GetMapping("edit")
 	public String edit(HttpSession session) {
 		MemberVo vo = (MemberVo) session.getAttribute("loginMember");
 		MemberVo loginMember = ms.login(vo);
-		return "member/edit"; 
+		return "member/edit";
 	}
 	
-	@GetMapping("edit")
+	//정보 수정
+	@PostMapping("edit")
 	public String edit(MemberVo vo, HttpSession session) {
 		MemberVo updatedMember = ms.edit(vo);
 		if(updatedMember != null) {
-			session.setAttribute("loginMember", loginMember);
+			session.setAttribute("loginMember", updatedMember);
 		}
 		return "redirect:/";
 	}
+		
+	
 	
 	
 	
