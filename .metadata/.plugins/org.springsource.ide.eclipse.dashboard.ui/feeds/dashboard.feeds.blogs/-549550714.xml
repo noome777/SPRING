@@ -5,7 +5,22 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-09-15T02:00:00Z</updated>
+  <updated>2022-09-15T09:05:53Z</updated>
+  <entry>
+    <title>Spring Framework 6.0.0-M6 and 5.3.23 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/09/15/spring-framework-6-0-0-m6-and-5-3-23-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>St?phane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2022-09-15:4905</id>
+    <updated>2022-09-15T09:05:53Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;6.0.0-M6&lt;/code&gt; and &lt;code&gt;5.3.23&lt;/code&gt; are available now.&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;5.3.23&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.3.22"&gt;32 fixes and improvements&lt;/a&gt; and is a recommended upgrade for all Spring production scenarios.&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;6.0.0-M6&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v6.0.0-M5"&gt;123 additional fixes and improvements&lt;/a&gt; specific to the 6.0 branch. This milestone wraps up most of our AOT efforts, in preparation for our release candidate phase. Stay tuned for the announcement of Spring Boot 3.0.0-M5 next week!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.3.23/reference/html/"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Cloud Dataflow 2.9.6 Released</title>
     <link rel="alternate" href="https://spring.io/blog/2022/09/14/spring-cloud-dataflow-2-9-6-released" />
@@ -876,39 +891,6 @@ class RequestHashingGatewayFilterFactoryTest {&#xD;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;&lt;a href="https://spring.io/projects/spring-authorization-server"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-authorization-server/issues"&gt;GitHub Issues&lt;/a&gt; | &lt;a href="https://app.zenhub.com/workspaces/authorization-server-5e8f3182b5e8f5841bfc4902/board?repos=248032165"&gt;ZenHub Board&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Security 5.8.0-M2 is released</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/08/16/spring-security-5-8-0-m2-is-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Marcus Hert Da Coregio</name>
-    </author>
-    <id>tag:spring.io,2022-08-16:4882</id>
-    <updated>2022-08-16T16:00:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security &lt;code&gt;5.8.0-M2&lt;/code&gt; is available now.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This release includes dependency upgrades, bug fixes, and enhancements. Here are a few noteworthy changes:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-security/issues/11631"&gt;Hash-based Content-Security-Policy for SAML post pages&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-security/pull/11387"&gt;Customization of redirect strategy&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;See the &lt;a href="https://github.com/spring-projects/spring-security/releases/tag/5.8.0-M2"&gt;5.8.0-M2&lt;/a&gt; release notes for more details.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-security/reference/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>

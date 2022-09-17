@@ -20,12 +20,17 @@ public class MemberDaoImpl implements MemberDao {
 
 	@Override
 	public int edit(SqlSessionTemplate sst, MemberVo vo) {
-		return 0;
+		return sst.update("memberMapper.edit", vo);
 	}
 
 	@Override
 	public int quit(SqlSessionTemplate sst, int memberNo) {
 		return 0;
+	}
+
+	@Override
+	public MemberVo selectOneById(SqlSessionTemplate sst, String id) {
+		return sst.selectOne("memberMapper.selectOneById", id);
 	}
 
 }
