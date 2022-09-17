@@ -18,4 +18,8 @@ public interface MemberDao {
 	//회원 탈퇴
 	int quit(SqlSessionTemplate sst, int memberNo);
 
+	//회원 조회 (아이디로)
+	MemberVo selectOneById(SqlSessionTemplate sst, String string);
+
+
 }

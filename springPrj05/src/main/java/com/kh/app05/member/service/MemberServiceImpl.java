@@ -27,10 +27,19 @@ public class MemberServiceImpl implements MemberService{
 
 		@Override
 		public MemberVo edit(MemberVo vo) {
-			//업데이트
+			
 			//업데이트 결과 확인하고, 다시 정보 조회
-			//다시 조회 해서 얻은 멤버를 리턴
-			return null;
+			int result = dao.edit(sst, vo);
+			if(result == 1) {
+				//다시 조회 해서 얻은 멤버를 리턴
+//				MemberVo updatedMember = dao.selectOneById(sst, vo);
+//				return updatedMember;
+				
+				return dao.selectOneById(sst, vo.getId());
+			}else {
+				return null;
+			}
+			
 		}
 
 		@Override

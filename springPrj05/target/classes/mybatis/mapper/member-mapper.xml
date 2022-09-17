@@ -11,5 +11,13 @@
 	<select id="login" resultType="com.kh.app05.member.vo.MemberVo">
 		SELECT ID,PWD,NICK FROM MEMBER WHERE ID = #{id} AND PWD = #{pwd}
 	</select>
+	
+	<select id="selectOneById" resultType="com.kh.app05.member.vo.MemberVo">
+		SELECT ID,PWD,NICK FROM MEMBER WHERE ID = #{id}
+	</select>
+	
+	<update id="edit">
+		UPDATE MEMBER SET PWD=#{pwd}, NICK=#{nick} WHERE ID=#{id}
+	</update>
   
 </mapper>

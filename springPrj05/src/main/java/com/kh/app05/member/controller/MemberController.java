@@ -72,12 +72,18 @@ public class MemberController {
 	
 	//정보 수정
 	@PostMapping("edit")
-	public String edit(MemberVo vo, HttpSession session) {
+	public String edit(MemberVo vo, HttpSession session, Model model) {
 		MemberVo updatedMember = ms.edit(vo);
 		if(updatedMember != null) {
+			//회원정보 수정 성공
+			session.setAttribute("msg", "회원정보 수정 성공");
 			session.setAttribute("loginMember", updatedMember);
+			return "redirect:/";
+		}else {
+			//회원정보 수정 실패
+			model.addAttribute("errorMsg", "정보 수정 실패");
+			return "error";
 		}
-		return "redirect:/";
 	}
 		
 	
