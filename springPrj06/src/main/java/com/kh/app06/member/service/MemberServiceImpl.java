@@ -18,6 +18,7 @@ public class MemberServiceImpl implements MemberService {
 	@Autowired
 	private SqlSessionTemplate sst;
 	
+//	pom.xml에 spring security를 추가함
 	@Autowired
 	private BCryptPasswordEncoder encoder;
 	
