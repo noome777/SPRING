@@ -24,7 +24,7 @@ public class BankController {
 	
 	//송금 진행
 	@PostMapping("send")
-	@ResponseBody 
+	@ResponseBody /*resp.getWriter().write()*/
 	public String send(int money) {
 		
 		System.out.println("입력받은 금액 : " + money);
