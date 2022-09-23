@@ -82,6 +82,6 @@ public class BoardController {
 		
 		//3. 저장
 		
-		return "zzz";
+		return "redirect:/";
 	}
 }

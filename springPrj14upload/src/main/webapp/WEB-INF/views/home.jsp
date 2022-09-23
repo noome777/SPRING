@@ -15,5 +15,15 @@
 
 	<a href="/app14/board/write">게시글 작성</a>
 	
+	<br><br><br>
+	<hr>
+	<br><br><br>
+	
+	<a download href="/app14/resources/upload/temp.png">이미지 다운로드</a>
+	
+	<br>
+	
+	<a href="/app14/board/down">이미지 다운로드(어렵게)</a>
+	
 </body>
 </html>
