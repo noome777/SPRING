@@ -25,5 +25,9 @@
 	
 	<a href="/app14/board/down">이미지 다운로드(어렵게)</a>
 	
+	<br>
+	
+	<a href="/app14/board/download">이미지 다운로드(스프링 권장방식)</a>
+	
 </body>
 </html>
