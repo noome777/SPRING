@@ -1,9 +1,12 @@
 package com.kh.app99.member.service;
 
+import java.util.List;
+
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.kh.app99.member.dao.MemberDao;
 import com.kh.app99.member.vo.MemberVo;
@@ -64,5 +67,36 @@ public class MemberServiceImpl implements MemberService {
 		}
 			
 	}
+
+	//회원정보 수정(update, select)
+	@Override
+	public MemberVo edit(MemberVo vo) {
+		
+		//이 두줄을 간단히 하기 위해서 MemberVo 안에 encodePwd 메소드들을 넣어두었음
+//		String x = vo.getPwd();
+//		pwdEnc.encode(x);
+		
+		vo.encodePwd(pwdEnc);
+		int result = dao.updateOne(sst, vo);
+		
+		MemberVo updatedMember = null;
+		if(result == 1) {
+			updatedMember = dao.selectOneByNo(sst, vo);
+		}
+		
+		return updatedMember;
+	}
+
+	//아이디 중복확인
+	@Override
+	public int checkDup(String memberId) {
+		return dao.selectCountId(sst, memberId);
+	}
+
+	//회원 목록 조회
+    @Override
+    public List<MemberVo> selectlist() {
+        return dao.selectList(sst);
+    }
 
 }
