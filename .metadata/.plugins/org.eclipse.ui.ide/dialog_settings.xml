@@ -123,6 +123,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\lee99\Desktop\ex13"/>
+			<item value="C:\Users\lee99\Desktop\소중한 채팅자료\ex13"/>
 			<item value="C:\Users\lee99\Desktop\final2"/>
 			<item value="C:\Users\lee99\Desktop\final\final"/>
 			<item value=""/>
@@ -141,9 +143,17 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\lee99\Desktop\WebSocket-master\WebSocket-master"/>
 			<item value="C:\Users\lee99\Desktop\OntactOfficial-master\OntactOfficial-master"/>
 			<item value="C:\Users\lee99\Desktop\MSG"/>
 			<item value="C:\Users\lee99\Desktop\CODEUS-Groupware-main\CODEUS-Groupware-main\CODEUS"/>
 		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="663"/>
+		<item key="DIALOG_Y_ORIGIN" value="91"/>
+		<item key="DIALOG_WIDTH" value="613"/>
+		<item key="DIALOG_HEIGHT" value="642"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

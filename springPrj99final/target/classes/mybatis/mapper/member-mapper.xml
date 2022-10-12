@@ -42,4 +42,24 @@
 			WHERE ID = #{id} AND STATUS ='O'
 	</select>
 	
+	<update id="updateOne">
+		UPDATE MEMBER
+			SET PWD = #{pwd}, NICK = #{nick}, GENDER = #{gender}, MBTI = #{mbti}, FILE_NAME = #{fileName}, MODIFY_DATE = SYSDATE
+			WHERE NO = #{no}
+	</update>
+	
+	<select id="selectOneByNo" resultType="MemberVo">
+		SELECT * FROM MEMBER WHERE NO = #{no}
+	</select>
+	
+	<select id="selectCountId" resultType="int">
+		SELECT COUNT(*) FROM MEMBER WHERE ID = #{memberId}
+	</select>
+	
+	<select id="selectList" resultType="MemberVo">
+		SELECT * FROM MEMBER 
+		WHERE STATUS = 'O'
+		ORDER BY NO DESC
+	</select>
+	
 </mapper>
