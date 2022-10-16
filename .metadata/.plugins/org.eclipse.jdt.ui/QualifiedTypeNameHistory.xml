@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.http.HttpHeaders"/>
-    <fullyQualifiedTypeName name="org.springframework.core.io.ByteArrayResource"/>
-    <fullyQualifiedTypeName name="java.net.URLEncoder"/>
-    <fullyQualifiedTypeName name="javax.servlet.ServletOutputStream"/>
-    <fullyQualifiedTypeName name="com.kh.app99.member.service.MemberServiceImpl"/>
-    <fullyQualifiedTypeName name="com.kh.app99.member.dao.MemberDao"/>
     <fullyQualifiedTypeName name="com.kh.app99.member.service.MemberService"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="com.kh.app99.reply.service.ReplyService"/>
     <fullyQualifiedTypeName name="com.kh.app99.reply.vo.ReplyVo"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity"/>
+    <fullyQualifiedTypeName name="lombok.extern.log4j.Log4j"/>
+    <fullyQualifiedTypeName name="com.kh.app00.common.SecurityConfig"/>
 </qualifiedTypeNameHistroy>

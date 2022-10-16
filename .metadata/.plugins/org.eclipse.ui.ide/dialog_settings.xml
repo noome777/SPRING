@@ -123,6 +123,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\lee99\Desktop\EveryWare"/>
 			<item value="C:\Users\lee99\Desktop\ex13"/>
 			<item value="C:\Users\lee99\Desktop\소중한 채팅자료\ex13"/>
 			<item value="C:\Users\lee99\Desktop\final2"/>
